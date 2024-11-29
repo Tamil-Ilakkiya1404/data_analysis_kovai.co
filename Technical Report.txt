@@ -1,0 +1,18 @@
+Technical Report On Using Random Forest Regressor for the given dataset
+
+Random Forest Regressor:
+	It is an ensemble technique which incorporates constructing multiple decision trees during training and merges their results to produce an efficient solution. It is a powerful model for forecasting and regression tasks.
+	
+Working of the algorithm:
+	A decision tree splits the data into subsets based on the feature and As the name itself suggests, Random Forest builds decision trees on a random subsets of data and features.
+
+Models Parameters:
+	n_estimators - Number of trees in the forest
+	max_depth - Maximum depth of each tree in the forest
+	random_state - Ensures reproducibility.
+
+ARIMA MODEL - For Forecasting
+	It is abbreviated as Auto-Regressive Integrated Moving Average.It is a statistical method for time series forecasting. It is used to predict the future values based on the past data. 
+It’s model parameters are p,q and d. Where p - Autoregressive order, 
+d - differencing order and q - Moving Average Order.
+	Using ARIMA model, I have forecasted the number of journeys by local Route, Light Rail, peak Service, Rapid Route and School for the next 7 days.
